@@ -10,3 +10,11 @@ document.addEventListener("DOMContentLoaded", function () {
         alert("Redirecting to WhatsApp...");
     });
 });
+function toggleMenu() {
+    var menu = document.querySelector(".mobile-menu");
+    if (menu.style.display === "block") {
+        menu.style.display = "none";
+    } else {
+        menu.style.display = "block";
+    }
+}
